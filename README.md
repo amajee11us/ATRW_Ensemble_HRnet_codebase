@@ -43,7 +43,26 @@ HEAD
              |__contains results and intermediate training results
 ```
 ## Data Preparation
-stay tuned
+All trained models and pretrained models are available here:
+https://drive.google.com/drive/folders/1tWkShwPoSZUsJlx3ijDv_h-P2PI6I5YW?usp=sharing
+
+The pretrained model needs to be placed as per the instructions above for the pretrained model.
+
+For the trained models, each model must be placed in separate directories as the code looks for model directories and not model-paths( we are working on fixing that as well)
+
+for eg:
+```diff
+{ROOT}
+|__trained
+   |__<resolution>
+       |__model1
+       |  |__final_state.pth
+       |__model2
+       |  |__final_state.pth
+       |....
+       :
+       :
+```
 
 ## Running the Experiments
 The experiment requires you to create 5 directories named output1, output2.... These will store the trained output models.
@@ -89,12 +108,5 @@ python tools/train.py \
   author={Sun, Ke and Xiao, Bin and Liu, Dong and Wang, Jingdong},
   booktitle={CVPR},
   year={2019}
-}
-
-@inproceedings{xiao2018simple,
-    author={Xiao, Bin and Wu, Haiping and Wei, Yichen},
-    title={Simple Baselines for Human Pose Estimation and Tracking},
-    booktitle = {European Conference on Computer Vision (ECCV)},
-    year = {2018}
 }
 ```
