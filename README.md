@@ -102,11 +102,4 @@ python tools/train.py \
   ```
   Follow the instructions in sequence in the notebook.
 ## References
-```diff
-@inproceedings{sun2019deep,
-  title={Deep High-Resolution Representation Learning for Human Pose Estimation},
-  author={Sun, Ke and Xiao, Bin and Liu, Dong and Wang, Jingdong},
-  booktitle={CVPR},
-  year={2019}
-}
-```
+[1] Deep High-Resolution Representation Learning for Human Pose Estimation. Ke Sun, Bin Xiao, Dong Liu, and Jingdong Wang. CVPR 2019. [download](https://arxiv.org/pdf/1902.09212.pdf)
