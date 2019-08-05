@@ -1,5 +1,8 @@
 # Tiger Pose Estimation - Ensemble learning on HRNet
 An ensemble technique applied on High Resolution net to improve accuracy on pose detection task.
+This project was carried out as a part of CVWC-2019 for ICCV 2019 - Amur Tiger re-Identification challenge.
+
+#### Challenge overview - https://cvwc2019.github.io/challenge.html
 
 ## Method Description
 The key aspect of our approach was to improve on the corner cases on already effective HRNet network. For this reason, the following methodology was adopted:
