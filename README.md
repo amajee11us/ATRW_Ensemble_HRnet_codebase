@@ -42,6 +42,9 @@ HEAD
           |__<config>
              |__contains results and intermediate training results
 ```
+## Data Preparation
+stay tuned
+
 ## Running the Experiments
 The experiment requires you to create 5 directories named output1, output2.... These will store the trained output models.
 The trained models are fed to a predictor which runs evaluation on the val/test dataset to obtain the final outputs.
@@ -51,6 +54,11 @@ To run the above mentioned scenario do the following:
 ```diff
 conda env create -f pose-env.yaml
 ```
+2. Run the commands
+```diff
+   mkdir output
+   mkdir log
+ ```
 2. Go to the ```lib ``` directory and run ``` make ```. This builds the nms library
 3. Also install pycocotools 
 4. Your basic setup is ready.
