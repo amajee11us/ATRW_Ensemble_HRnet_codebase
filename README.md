@@ -19,6 +19,20 @@ HEAD
       |__imagenet
          |__hrnet_w32-36af842e.pth
 ```
+### Folder structure for dataset
+```diff
+HEAD
+|__data
+   |__tiger
+      |__images
+      |  |__train
+      |  |__test
+      |  |__val
+      |__annotations
+         |__<train_annotations>
+         |__<test_annotations>
+         |__bb_predictions_pose_test.json <GT bboxes for test dataset>
+```
 ### Folder structure for output directory (Taken care by the code)
 ```diff
 HEAD
