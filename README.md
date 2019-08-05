@@ -76,6 +76,12 @@ python tools/train.py \
  python tools/test.py \
     --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml
   ```
+  ### Ensemble Testing
+  All the ensemble code has been kept in the interactive python Notebook situated here:
+  ```diff
+  <root>/tools/ensemble-hrnet.ipynb
+  ```
+  Follow the instructions in sequence in the notebook.
 ## References
 ```diff
 @inproceedings{sun2019deep,
