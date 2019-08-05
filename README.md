@@ -42,7 +42,32 @@ HEAD
           |__<config>
              |__contains results and intermediate training results
 ```
+## Running the Experiments
+The experiment requires you to create 5 directories named output1, output2.... These will store the trained output models.
+The trained models are fed to a predictor which runs evaluation on the val/test dataset to obtain the final outputs.
+The outputs and the GTs are passed to the evaluator script which scores and returns the performance metrics to us.
+To run the above mentioned scenario do the following:
+1. Create your conda environment from the '.yaml' file provided in the root directory.
+```diff
+conda env create -f pose-env.yaml
+```
+2. Go to the ```lib ``` directory and run ``` make ```. This builds the nms library
+3. Also install pycocotools 
+4. Your basic setup is ready.
 
+### Training the 5-Fold training model
+Run the following command:
+```diff
+python tools/train.py \
+    --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml
+ ```
+ Remember to change the config file path to suite your requirements.
+ 
+ ### Test a sample
+ ```diff
+ python tools/test.py \
+    --cfg experiments/coco/hrnet/w32_256x192_adam_lr1e-3.yaml
+  ```
 ## References
 ```diff
 @inproceedings{sun2019deep,
