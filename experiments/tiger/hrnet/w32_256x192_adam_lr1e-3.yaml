@@ -12,12 +12,12 @@ PRINT_FREQ: 4
 
 DATASET:
   COLOR_RGB: true
-  DATASET: 'coco'
+  DATASET: 'tiger'
   DATA_FORMAT: jpg
   FLIP: false
   NUM_JOINTS_HALF_BODY: 7
   PROB_HALF_BODY: 0.3
-  ROOT: '/data/Anay/deep-high-resolution-net.pytorch/data/tiger/'
+  ROOT: 'data/tiger/'
   ROT_FACTOR: 45
   SCALE_FACTOR: 0.35
   TEST_SET: 'val'
@@ -26,7 +26,7 @@ MODEL:
   INIT_WEIGHTS: true
   NAME: pose_hrnet
   NUM_JOINTS: 15
-  PRETRAINED: '/data/Anay/deep-high-resolution-net.pytorch/models/pytorch/imagenet/hrnet_w32-36af842e.pth'
+  PRETRAINED: 'models/pytorch/imagenet/hrnet_w32-36af842e.pth'
   TARGET_TYPE: gaussian
   IMAGE_SIZE:
   - 192
@@ -108,7 +108,7 @@ TRAIN:
   NESTEROV: false
 TEST:
   BATCH_SIZE_PER_GPU: 4
-  COCO_BBOX_FILE: '/data/Anay/deep-high-resolution-net.pytorch/data/tiger/annotations/bb_predictions_pose_test.json'
+  COCO_BBOX_FILE: 'data/tiger/annotations/bb_predictions_pose_test.json'
   BBOX_THRE: 1.0
   IMAGE_THRE: 0.5
   IN_VIS_THRE: 0.2
