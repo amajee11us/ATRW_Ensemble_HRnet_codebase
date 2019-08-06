@@ -2,7 +2,7 @@
 # Copyright (c) Microsoft
 # Licensed under the MIT License.
 # Written by Bin Xiao (Bin.Xiao@microsoft.com)
-# Edited by Anay Majee (anay.majee@intel.com)
+# Edited by Anay Majee (anaymajee11us@gmail.com)
 # ------------------------------------------------------------------------------
 
 from __future__ import absolute_import
