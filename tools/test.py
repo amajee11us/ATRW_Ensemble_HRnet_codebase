@@ -3,7 +3,7 @@
 # Copyright (c) 2018-present Microsoft
 # Licensed under The Apache-2.0 License [see LICENSE for details]
 # Written by Bin Xiao (Bin.Xiao@microsoft.com)
-# Edited by Anay Majee (anay.majee@intel.com)
+# Edited by Anay Majee (anaymajee11us@gmail.com)
 # ------------------------------------------------------------------------------
 
 from __future__ import absolute_import
