@@ -44,7 +44,7 @@ HEAD
 ```
 ## Data Preparation
 All trained models and pretrained models are available here:
-https://drive.google.com/drive/folders/1tWkShwPoSZUsJlx3ijDv_h-P2PI6I5YW?usp=sharing
+[Drive_Link_For_models](https://drive.google.com/drive/folders/1tWkShwPoSZUsJlx3ijDv_h-P2PI6I5YW?usp=sharing)
 
 The pretrained model needs to be placed as per the instructions above for the pretrained model.
 
